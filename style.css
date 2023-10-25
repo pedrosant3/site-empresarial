@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #333333;
+    border: solid gray 6px;
+}
+
+li {
+    float: right;
+}
+
+a:hover {
+    background-color: #444444;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+
+}
+
+body {
+    background-color: #111111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
